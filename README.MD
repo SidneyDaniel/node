@@ -1,0 +1,1 @@
+Projeto desenvolvido durante aula de JS focado em back-end na plataforma Alura.
