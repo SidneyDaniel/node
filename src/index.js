@@ -7,7 +7,8 @@ function extraiLinks(texto) {
     const resultados = capturas.map(captura => ({[captura[1]]: captura[2]}))
     // console.log(resultados);
     // console.log(capturas);
-    return resultados;
+
+    return resultados.length !== 0 ? resultados : chalk.magenta('Não há links no arquivo!');// mesma coisa de um if e else 
 }
 
 
